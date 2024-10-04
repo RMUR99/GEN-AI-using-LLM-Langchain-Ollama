@@ -16,18 +16,17 @@ First go to langchain account and press on setting
 
 
 Then you will see the word API press on `Create  API` button : 
-![image](./images/Create%20API%20Key.png)
+![image](./images/CreateAPIKey.png)
 
 
 Make the purpose to be Personal 
 
-![image](./images/personal%20.png)
-
+![image](./images/personal_pic.png)
 
 then you will get you key Copy it cause you will need it and i will show you how you can use your API Key 
 **NOTE ⚠️ API IS A SENSITIVE INFORMATION DONT SHARE IT WITH JUST ANYONE** 
 
-![image](./images/new%20API%20Key%20.png)
+![image](./images/newAPIKey.png)
 
 
 ## Now how can i use my API key ? 
@@ -37,7 +36,7 @@ first in you project folder you will create a Global file called `.env` ( which 
 
 it should look like this  ( i have OPEN AI here cause i have a project that needs it )
 **OPEN AI API'S ARE PAID 5$ MINIMUM TO CONNECT**
-![image](./images/api%20inside%20env.png)
+![image](./images/api_inside_env.png)
 
 to ease downloading the dependencies that you would need add a text file with required dependencies and write 
 ```
@@ -52,7 +51,7 @@ if the Ollama model doesnt wok that means in needs pulling use this command
 ollama pull llama3.2
 ```
 note that this will take time 
-![image](./images/ollama%20command.png)
+![image](./images/ollama_command.png)
 
 now to run the app use this command 
 ```
